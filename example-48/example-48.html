@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 audio</title>
+	</head>
+
+	<body>
+		<h1>A bird taking a shower</h1>
+
+		<object data="flash/bird.swf" height="400" width="500">	
+		</object>
+
+		<h1>A dog in the snow</h1>
+
+		 <!--valid preload values: auto, metadata, none-->
+		<video src="video/dog.mp4" 
+		       poster="images/dog.jpg" 
+		       width="400" 
+		       height="300"
+		       preload="auto"
+		       controls
+		       loop>
+		</video>
+
+		<h1>Test audio</h1>
+
+		<audio src="audio/test-audio.mp3" controls autoplay>
+		</audio>	
+	</body>
+</html>
